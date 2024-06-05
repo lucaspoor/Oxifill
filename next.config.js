@@ -19,4 +19,9 @@ const plugins = [
   withNx,
 ];
 
+// @ts-ignore
+const withVideos = require('next-videos');
+
+module.exports = withVideos();
+
 module.exports = composePlugins(...plugins)(nextConfig);
