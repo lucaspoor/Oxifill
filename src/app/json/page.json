@@ -1,0 +1,26 @@
+{
+  "Hero": {
+    "titulo1": "",
+    "titulo2": ""
+  },
+
+  "InfoSection": {
+    "titulo": "",
+    "Informacion": "",
+    "boton": ""
+  },
+  "Card": [
+    {
+      "titulo": "",
+      "texto": ""
+    },
+    {
+      "titulo": "",
+      "texto": ""
+    },
+    {
+      "titulo": "",
+      "texto": ""
+    }
+  ]
+}

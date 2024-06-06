@@ -1,20 +1,21 @@
+import CardMia from './Card';
+
 export default function Cualidades() {
   return (
-    <div className="w-100 mx-auto bg-black p-4 h-screen max-w-screen-xl">
-      <div className="flex justify-between  mt-20">
-        <img src="/images/psa.png" />
-
-        <div className="video-content space-y-2 ml-28">
-          <h1 className="py-8  text-black font-medium font-manrope text-5xl  text-left leading-[60px]">
-            Hacemos que produzcas tu tu propio oxigeno
-          </h1>
-          <p className="font-manrope pr-24 font-medium text-gray-600">
-            Oxifil es el representante en Chile de la empresa “Can Gas” líder en
-            plantas productoras de oxígeno para todo tipo de industrias que
-            cuenta con la experiencia y equipo de la empresa “Cymmedical” la
-            cual tiene una gran equipo y experiencia en la instalación de gases
-            en Chile.
-          </p>
+    <div className="bg-gray-50">
+      <div className="w-100 mx-auto p-4 h-[700px] max-w-screen-xl">
+        <div className="flex flex-col   ">
+          <div className="flex justify-center  w-100 ">
+            <h1 className="py-8 text-black mb-10 font-medium font-manrope text-5xl  text-center leading-[60px]">
+              Areas Principales
+            </h1>
+          </div>
+          <CardMia />
+        </div>
+        <div className="flex justify-center">
+          <button className="w-80 mt-12 py-4 rounded-lg  text-white font-bold text-lg  bg-emerald-600">
+            Ver mas Sobre Oxifill
+          </button>
         </div>
       </div>
     </div>

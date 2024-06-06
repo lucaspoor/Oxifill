@@ -1,6 +1,6 @@
-export default function Info() {
+export default function Maquina() {
   return (
-    <div className="w-100 mx-auto p-4 lg:h-[600px] max-w-screen-xl">
+    <div className="w-100 mx-auto p-4 h-[700px] max-w-screen-xl">
       <div className="flex justify-between  mt-20">
         <img src="/images/psa.png" className="h-1/3" />
 

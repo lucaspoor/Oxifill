@@ -1,3 +1,5 @@
+import Footer from './components/Footer';
+import Nav from './components/Nav';
 import './global.css';
 
 import { ChakraProvider } from '@chakra-ui/react';
@@ -14,7 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body>{children}</body>
+      <body>
+        {' '}
+        <Nav></Nav>
+        {children} <Footer />
+      </body>
     </html>
   );
 }
