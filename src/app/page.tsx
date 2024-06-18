@@ -2,7 +2,7 @@ import Cualidades from './components/Cualidades';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Info from './components/Info';
-import Maquina from './components/Maquina';
+import Maquina from './components/Productos';
 
 export default function Index() {
   /*
@@ -16,6 +16,7 @@ export default function Index() {
       <Info></Info>
       <Cualidades></Cualidades>
       <Maquina></Maquina>
+      <Info></Info>
     </div>
   );
 }

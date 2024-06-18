@@ -2,25 +2,27 @@ import Link from 'next/link';
 
 export default function Nav() {
   return (
-    <nav className="bg-black fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+    <nav className="bg-black opacity-90 fixed w-full z-20 top-0 start-0 border-b  dark:border-gray-600">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link
           href="/#"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img
-            src="https://flowbite.com/docs/images/logo.svg"
+            src="/images/logoxifill.png"
             className="h-8"
             alt="Flowbite Logo"
           />
-          <span className="self-center text-2xl tracking-wider font-semibold whitespace-nowrap dark:text-white">
-            Oxifill
-          </span>
+          {/* <img
+            src="https://flowbite.com/docs/images/logo.svg"
+            className="h-8"
+            alt="Flowbite Logo"
+          /> */}
         </Link>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <button
             type="button"
-            className="text-white bg-emerald-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center "
+            className="text-white bg-main hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center "
           >
             Get started
           </button>
@@ -49,7 +51,7 @@ export default function Nav() {
             <li>
               <Link
                 href="/"
-                className="block py-2 px-3 text-green-600 rounded md:bg-transparent md:p-0 "
+                className="block py-2 px-3 text-main rounded md:bg-transparent md:p-0 "
                 aria-current="page"
               >
                 Home

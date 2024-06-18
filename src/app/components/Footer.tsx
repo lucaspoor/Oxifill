@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="w-full bg-black">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="py-14 grid grid-cols-12 gap-x-5 gap-y-8">
-          <div className="col-span-full xl:col-span-3 relative bg-gradient-to-tr from-emerald-600 to-emerald-400 rounded-2xl gap-12 p-6 xl:w-72 h-96 flex flex-col justify-center items-center">
+          <div className="col-span-full xl:col-span-3 relative bg-gradient-to-tr from-main to-emerald-400 rounded-2xl gap-12 p-6 xl:w-72 h-96 flex flex-col justify-center items-center">
             <a
               href="https://pagedone.io/"
               className="flex justify-center lg:justify-start"
@@ -186,7 +186,7 @@ export default function Footer() {
               />
               <button
                 type="submit"
-                className="flex gap-2 justify-center items-center py-3.5 px-7 rounded-full text-white bg-emerald-600 shadow-md w-fit transition-all duration-500 mx-auto xl:mx-0 hover:bg-indigo-700"
+                className="flex gap-2 justify-center items-center py-3.5 px-7 rounded-full text-white bg-main shadow-md w-fit transition-all duration-500 mx-auto xl:mx-0 hover:bg-indigo-700"
               >
                 Subscribe
                 <svg

@@ -16,7 +16,7 @@ import card from '../json/card.json';
 
 export default function CardMia() {
   return (
-    <div className="flex justify-between ">
+    <div className="flex justify-between flex-wrap ">
       {card.map((c) => {
         return (
           <Card className="max-w-sm p-4 bg-white">

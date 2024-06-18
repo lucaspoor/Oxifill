@@ -15,7 +15,7 @@ export default function Info() {
             cual tiene una gran equipo y experiencia en la instalación de gases
             en Chile.
           </p>
-          <button className="w-48 py-2 rounded-lg text-white font-bold text-lg  bg-emerald-600">
+          <button className="w-48 py-2 rounded-lg text-white font-bold text-lg  bg-main">
             See brochure
           </button>
         </div>

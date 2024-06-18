@@ -14,7 +14,7 @@ export default function Hero() {
           loop
         ></video>
       </div>
-      <div className="video-content space-y-2">
+      <div className="video-content space-y-2 relative ">
         <h1 className="py-8 text-center text-white font-medium font-manrope text-5xl lg:text-left leading-[70px]">
           Dejar de pagar y Genera
         </h1>
